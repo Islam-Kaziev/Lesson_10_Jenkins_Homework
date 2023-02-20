@@ -39,7 +39,7 @@ public class RegistrationTests extends TestBase {
             $("#state").click();
             $("#stateCity-wrapper").$(byText("NCR")).click();
             $("#city").click();
-            $("#stateCity-wrapper").$(byText("Delphi")).click();
+            $("#stateCity-wrapper").$(byText("Delhi")).click();
             $("#submit").click();
         });
         step("Check form results    ", () -> {
