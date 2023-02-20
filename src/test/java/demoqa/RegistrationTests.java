@@ -37,9 +37,9 @@ public class RegistrationTests extends TestBase {
             $("#uploadPicture").uploadFile(new File("src/test/resources/dog.jpeg"));
             $("#currentAddress").setValue("KBR, Nalchik, Lenina, 32, B");
             $("#state").click();
-            $("#react-select-3-option-3").click();
+            $("#stateCity-wrapper").$(byText("NCR")).click();
             $("#city").click();
-            $("#react-select-4-option-1").click();
+            $("#stateCity-wrapper").$(byText("Delphi")).click();
             $("#submit").click();
         });
         step("Check form results    ", () -> {
