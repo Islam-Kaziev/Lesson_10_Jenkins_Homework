@@ -46,7 +46,7 @@ public class RegistrationTests extends TestBase {
             $(".modal-header").shouldHave(text("Thanks for submitting the form"));
             $(".table-responsive").shouldHave(text("Islam"), text("Kaziev"), text("Islam@Vasiya.com"),
                     text("9111111111"), text("16 November,1994"), text("English, Maths"), text("Music"), text("dog.jpeg"),
-                    text("KBR, Nalchik, Lenina, 32, B"), text("Rajasthan Jaiselmer"));
+                    text("KBR, Nalchik, Lenina, 32, B"), text("NCR Delhi"));
         });
     }
 }
