@@ -30,18 +30,4 @@ public class NegativeTests {
         assertTrue(false) ;
     }
 
-    @Test
-    void test6() {
-        assertTrue(false) ;
-    }
-
-    @Test
-    void test7() {
-        assertTrue(false) ;
-    }
-
-    @Test
-    void test8() {
-        assertTrue(false) ;
-    }
 }
